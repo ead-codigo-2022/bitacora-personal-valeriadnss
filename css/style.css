@@ -1,8 +1,14 @@
-*{
-  margin: 0px;
-  padding: 0px; 
-  box-sizing: border-box;
 
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 header{
@@ -47,18 +53,8 @@ header a:hover{
 }
 
 
-#fin {
-  margin-top: 100%;
-  width: 100%;
-  height: 80px;
-  background-color: antiquewhite;
-  
-}
 
-
-
-
-.centro {
+#centro {
   background-color: #6fe8ea9e;
   color: rgba(58, 51, 54, 0.817);
   padding: 45px 55px;
@@ -70,7 +66,6 @@ header a:hover{
 }
 
 
-
 p
  {
  margin-left: 5%;
@@ -80,33 +75,76 @@ p
  margin-top: 150px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-rows: 100px 100px
-  grid-template-columns  1fr 2fr 1fr 1fr 1fr;
-  grid-gap: 5px;
 
-
-}
-
-.a {
-  display:block;
-  width: 50px;
-  height: 70px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 200;
-  background-color: aliceblue;
-  color: black;
-  border-radius:10px;
-  padding: 15px 30px;
+#btn {
+  background-color: #e2e235;
+  color: rgb(182, 39, 39);
+  padding: 15px 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;border-radius:10px;
   text-decoration: none;
   margin: 150px 130px;
+  font-size: 1rem;
   
 }
 
-.a:hover {
+#btn:hover {
  background-color: transparent;
- border: 2px solid rgba(248, 225, 21, 0.306);
+ border: 1px solid rgba(248, 225, 21, 0.306);
  color: bisque;
  
 }
+ 
+#nuestros-programas{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#nuestros-programas .container{
+  padding: 150px 12px;
+}
+
+#nuestros-programas h2{
+  margin-top: 0;
+  font-size: 3.2em;
+}
+
+.nuestros-programas p{
+  display: none;
+}
+
+#nuestros-programas .carta{
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.carta:first-child{
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+
+}
+
+.carta:nth-child(2){
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+}
+
+.carta:nth-child(3){
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+
+}
+
+
