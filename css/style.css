@@ -15,14 +15,13 @@ body {
 }
 
 header{
-  background: rgba(0, 0, 0, 0.306);
+  background: rgba(79, 197, 201, 0.347);
   
 }
 header .container {
-  background: rgba(248, 225, 21, 0.306);
   flex-direction: column;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   
 }
 
@@ -92,7 +91,7 @@ header a:hover{
 }
 
 .carta:nth-child(3){
-  background-color:rgba(202, 150, 173, 0.696)
+  background-image: url(../img/img-analoga02.JPG);
 }
 
 #caracteristicas .container{
@@ -162,3 +161,67 @@ a {
   background-color: var(--color-primary);
   border-radius: 2rem;
 }
+
+
+.animacion {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 0, 0, 0.568);
+  position: relative;
+  animation: mymove 40s;
+  animation-fill-mode: forwards;
+  margin-top: none;
+  margin-left: 20%;
+  translate: 20px;
+  translate: 30px;
+  }
+
+  .animacion2 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: rgba(200, 255, 0, 0.568);
+    position: relative;
+    animation: mymove 40s;
+    animation-fill-mode: forwards;
+    margin-top: none;
+    margin-left: 10%;
+    translate: 20px;
+    translate: 30px;
+    }
+    .animacion3 {
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      background: rgba(157, 0, 255, 0.568);
+      position: relative;
+      animation: mymove 40s;
+      animation-fill-mode: forwards;
+      margin-top: none;
+      margin-left: 10%;
+      translate: 55px;
+      translate: 0px;
+      }
+  
+  @keyframes mymove {
+    from {top: 10px;}
+    to {top: 300px; background-color: rgba(234, 255, 0, 0.564);}
+  }
+ 
+.titulo-analoga h1 {
+  font-size: 100px;
+  text-align: center;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color:rgba(49, 49, 15, 0.568)
+
+}
+
+.container-header {
+  background-color: #f5f5f5;
+  
+ 
+}
+
+.container-header p {
+ 
