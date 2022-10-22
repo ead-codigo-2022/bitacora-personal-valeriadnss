@@ -217,11 +217,50 @@ a {
 
 }
 
-.container-header {
-  background-color: #f5f5f5;
-  
- 
+.container-body {
+  margin-top: 10%;
+
+}
+.container-body h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  text-align: center;
+}
+.container-body p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-align: center;
 }
 
-.container-header p {
- 
+.imgRedonda {
+  width:400px;
+  height:300px;
+  border-radius:180px;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
