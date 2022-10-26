@@ -16,14 +16,24 @@ body {
 
 header{
   background: rgba(79, 197, 201, 0.347);
-  
+ margin-top: 60%;
 }
+
+
+
 header .container {
   flex-direction: column;
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 10%;
   
 }
+
+header .container a {
+  margin-top: 10%;
+  padding: 10px;
+ 
+}
+
 
 
 header a{
@@ -32,6 +42,7 @@ header a{
   color: black;
   font-size: 20px;
   margin-top: 50%;
+  text-align: center;
   
 }
 header a:hover{
@@ -48,10 +59,19 @@ header a:hover{
   width: 100%;
   background-color:rgba(252, 216, 252, 0.852);
   margin-top: 8%;
-  font-size: 100px ;
   font-weight: 20px;
   
 }
+
+#hero h1{
+  font-size: 100px;
+  text-align: center;
+}
+
+#hero h2{
+  font-size: 80px;
+}
+
 
 
 #nuestros-programas{
@@ -106,14 +126,9 @@ header a:hover{
 
 }
 
-:root {
-  --color-primary:    #f01f4b;
-  --color-text:       #17161A;
-  --color-background: #f5f5f5;
-}
 
 a {
-  color: var(--color-primary);
+  color:#f01f4c86;
 }
 .container {
   max-width: 1100px;
@@ -144,7 +159,7 @@ a {
 .service {
   padding: 2.5rem 1.25rem 2rem 1.25rem;
   text-align: center;
-  background-color: var(--color-background);
+  background-color: rgba(128, 128, 128, 0.363);
   border-radius: 200px 200px;
 }
 .service__title {
@@ -155,7 +170,7 @@ a {
   margin-bottom: 1.75rem;
 }
 .service__link {
-  color: var(--color-text);
+  color: black;
 }
 
 .services__button {
@@ -164,7 +179,7 @@ a {
   padding: 1rem 2rem;
   text-decoration: none;
   color: #fff;
-  background-color: var(--color-primary);
+  background-color:#f01f4b;
   border-radius: 2rem;
 }
 
@@ -343,6 +358,7 @@ a {
 
 .cuerpo-recetas {
   background-color: lightblue;
+  margin-bottom: 10%
 }
 
 .recetas h1:hover {
@@ -373,7 +389,6 @@ a {
   margin-left: 20%;
   margin-top: 8%;
   text-decoration: overline;
-
 }
 
 .recetas p {
@@ -404,6 +419,7 @@ a {
   margin-top: 5%;
   grid-template: repeat(4 1fr) / repeat(4, 1fr);
   grid-gap: 20px 10px;
+
 }
 
 .fotofood2{
@@ -449,6 +465,7 @@ a {
   margin-top: 5%;
   grid-template: repeat( 5 1fr) / repeat(5, 1fr);
   grid-gap: 20px 10px;
+  
 }
 
 .fotofoodB2{
