@@ -19,6 +19,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.footer{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.footer8{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
 
 span{
   color: white;
@@ -195,16 +206,20 @@ a {
   }
  
   /*index 3*/
+
+  .fondo-analoga{
+    background-color: #000000be;
+  }
 .titulo-analoga h1 {
   font-size: 80px;
   text-align: center;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- color:rgba(79, 79, 35, 0.568)
+ color:rgba(255, 255, 255, 0.568)
 
 }
 
 .texto-analogo p {
-  color: black;
+  color: rgb(255, 254, 254);
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 5%;
@@ -215,8 +230,7 @@ a {
 }
 
 .texto-analogo h2 {
-  color: rgba(79, 79, 35, 0.568);
-  ;
+  color: rgba(212, 212, 179, 0.568);
   font-size: 35px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -374,18 +388,11 @@ a {
   border-radius: 2rem;
 }
 
-.foodB2-KK {  /*GALLETA KK*/
-  margin-left: 40%;
-  margin-right: 20%;
+.queque{
+  background-color: #d395296c;
 }
 
-.fondo-KK{
-  background-color: #8a456daf;
-  border-style: groove;
-  border-width: 20px;
-}
-
-.KK h1 {
+.queque h1 {
   font-size: 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
@@ -393,12 +400,37 @@ a {
   text-align: center;
   margin-top: 20%;
   margin-bottom: 20%;
+  text-decoration: overline;
+
+}
+
+.queque h2{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #17161A;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 8%;
 
 }
 
 
-.KK li {
-  font-size: 20px;
+.queque h3{
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #17161A;
+  margin-top: 6%;
+  margin-bottom: 3%;
+  margin-left: 20%;
+
+}
+
+
+.queque li {
+  font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #17161A;
   text-align: left;
@@ -406,16 +438,9 @@ a {
 
 }
 
-.KK h4 {
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #17161A;
-  text-align: left;
-  margin-top: 8%;
-  margin-left: 10%;
-}
 
-.KK p {
+
+.queque p {
   font-size: 18px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #17161A;
@@ -424,23 +449,21 @@ a {
   margin-bottom: 3%;
   text-align: left;
   margin-left: 10%;
+  margin-right: 10%;
 
 }
 
 
-.KK h3 {
-  font-size: 45px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #000000;
-  margin-top: 8%;
+
+.galeria-Q{
   margin-left: 40%;
-  text-align: center;
-
-
+  margin-right: 20%;
 }
 
 
-.galeria2-food{
+.galeria2-Q {  /*QUEUQE GALERIA*/
+  margin-left: 40%;
+  margin-right: 20%;
   display: flex;
   padding-left: 10px;
   padding-right: 30%;
@@ -453,32 +476,30 @@ a {
   
 }
 
-.fotofood2{
-  display: inline-block;
+.marmol{
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
-.fotofood3{
-  display: inline-block;
-
-}
-.fotofood4{
-  display: inline-block;
-}
-.fotofood5{
-  display: inline-block;
-}
-
-
-.foodB2-galleta {  /*GALLETA PORTADA*/
-  margin-left: 40%;
-  margin-right: 20%;
-}
-
-.fondo-galleta{
+/*GALLETA*/
+.galleta{
   background-color: #8a456daf;
   border-style: groove;
   border-width: 20px;
 }
+
+.fotofoodQ{
+  display: inline-block;
+}
+.fotofoodQ1{
+  display: inline-block;
+}
+.fotofoodQ3{
+  display: inline-block;
+}
+
+
+
 
 .galleta h1 {
   font-size: 50px;
@@ -624,4 +645,63 @@ a {
   margin-right: 10%;
   margin-top: 10%;
   display: inline-block;
+}
+
+.button {
+  background-color: #2a342b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20%;
+  margin-left: 50%;
+  
+}
+
+.button a {
+ color: #000;
+  
+}
+
+button :hover a {
+  color: transparent;
+}
+
+#gallery {
+  line-height:0;
+  -webkit-column-count:5; /* split it into 5 columns */
+  -webkit-column-gap:5px; /* give it a 5px gap between columns */
+  -moz-column-count:5;
+  -moz-column-gap:5px;
+  column-count:5;
+  column-gap:5px;
+}
+
+#gallery img {
+  width: 90% !important;
+  height: auto !important;
+  margin-bottom:5px; /* to match column gap */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+}
+@media (max-width: 800px) {
+  #gallery {
+   -moz-column-count:    4;
+   -webkit-column-count: 4;
+   column-count:         4;
+  }
+}
+
+.anexo{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: italic;
+font-size: 40px;
+text-align: center;
+margin-top: 5%;
 }
